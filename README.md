@@ -15,4 +15,4 @@ python score_with_pretrained_BERT.py -h
   --prob_token          print the predicted word and its probability and this
                         position's corresponding gold token
   --show_model          logging the pretrained BERT model
-'''
+
