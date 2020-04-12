@@ -18,7 +18,7 @@ def parse_config():
         help="the corpus file you want to calculate.")
     parser.add_argument("--prob_token", action='store_true', default=False, \
         help="print the predicted word and its probability and this position's corresponding gold token")
-    parser.add_argument("--show_model", action='stor_true', default=False, \
+    parser.add_argument("--show_model", action='store_true', default=False, \
         help="logging the pretrained BERT model")
     return parser.parse_args()
 
