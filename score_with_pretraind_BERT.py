@@ -14,7 +14,7 @@ def parse_config():
         help="pre-downloaded bert path. for example, we download the chinese pretrained BERT model with path name 'chinese_L-12_H-768_A-12'")
     parser.add_argument("--gpu_id", type=int, default=0, \
         help="gpu_id. The default setting is using the first gpu")
-    parser.add_argument("--dev_data", type=str, default="/home/wmt2/vinnylywang/BERT_google/data/lm/test.zh.tsv", \
+    parser.add_argument("--dev_data", type=str, default="/***/test.zh.tsv", \
         help="the corpus file you want to calculate.")
     parser.add_argument("--prob_token", action='store_true', default=False, \
         help="print the predicted word and its probability and this position's corresponding gold token")
