@@ -1,5 +1,6 @@
 # score_with_bert
-scoring a sentence with pretrained BERT model
+
+Scoring a sentence with pretrained BERT model, setting your pretrained BERT model path with ``--bert_path``, and make sure the path of the sentence to be scored is provided with ``--dev_data``.
 
 For Chinese sentences scoring, you can download the official released chinese BERT model [chinese_L-12_H-768_A-12](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip).
 
