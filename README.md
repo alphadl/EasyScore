@@ -1,6 +1,8 @@
 # score_with_bert
 scoring a sentence with pretrained BERT model
 
+you can download the official released chinese BERT model [chinese_L-12_H-768_A-12](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip).
+
 **usage:**
 
 ```
