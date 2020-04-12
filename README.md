@@ -1,4 +1,4 @@
-# score_with_bert
+# score sentences with pretrained BERT 
 
 Scoring a sentence with pretrained BERT model, setting your pretrained BERT model path with ``--bert_path``, and make sure the path of the sentence to be scored is provided with ``--dev_data``.
 
